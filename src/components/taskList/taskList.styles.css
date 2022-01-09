@@ -1,0 +1,33 @@
+.task-list-container {
+    min-width: 532px;
+    width: 80%;
+    margin: auto;
+    margin-top: 32px;
+    border-radius: 4px;
+    border: rgb(202, 202, 202) 1px solid;
+    padding: 16px;
+
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.46);
+    -webkit-box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.46);
+    -moz-box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.46);
+}
+
+.single-task {
+    margin: 8px 0 16px 0;
+}
+
+.sort-option-button {
+    padding: 4px 16px;
+    border-radius: 4px;
+    border:2px solid rgb(177, 177, 177);
+    background: white;
+    margin-bottom: 16px;
+}
+
+.sort-option-button.sorted {
+    border:2px solid blue;
+}
+
+.sort-option-button:hover {
+    cursor: pointer;
+}

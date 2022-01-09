@@ -1,0 +1,74 @@
+.task-adder-form-container {
+    min-width: 409px;
+    width: 60%;
+    margin: auto;
+    margin-top: 16px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 16px;
+
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.46);
+    -webkit-box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.46);
+    -moz-box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.46);
+}
+
+.task-input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.priority-options-holder {
+    display: flex;
+    margin-top: 16px;
+    justify-content: space-between;
+}
+
+.task-priority-button {
+    border: none;
+    padding: 8px 24px;
+    border-radius: 4px;
+    color: black;
+    font-weight: bold;
+}
+
+.task-priority-button:hover {
+    cursor: pointer;
+}
+
+.task-priority-button.low {
+    background: rgb(206, 206, 206);
+    border: rgb(206, 206, 206) solid 3px;
+}
+
+.task-priority-button.medium {
+    background: yellow;
+    border: yellow solid 3px;
+}
+
+.task-priority-button.high {
+    background: rgb(0, 223, 0);
+    border: rgb(0, 223, 0) solid 3px;
+}
+
+.task-priority-button.selected {
+    border: blue solid 3px;
+}
+
+.submit-button-holder {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.add-task-submit-button {
+    border: none;
+    color: white;
+    padding: 8px 24px;
+    background: rgb(27, 27, 255);
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.add-task-submit-button:hover {
+    cursor: pointer;
+}

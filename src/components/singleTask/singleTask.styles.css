@@ -1,0 +1,54 @@
+.single-task-container {
+  color: Black;
+  padding: 12px 16px;
+  border-radius: 25px;
+  border: 1px solid rgb(226, 226, 226);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.31);
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.31);
+}
+
+.task-text-info {
+  margin-right: 16px;
+}
+
+.priority-and-status-holder {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.task-priority-chip {
+  margin: 0 16px 0 8px;
+  padding: 4px 16px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.task-priority-chip.low {
+  background: rgb(206, 206, 206);
+}
+
+.task-priority-chip.medium {
+  background: yellow;
+}
+
+.task-priority-chip.high {
+  background: rgb(0, 223, 0);
+}
+
+.task-status-checkbox {
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(226, 226, 226);
+  outline: none;
+  cursor: pointer;
+
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.31);
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.31);
+}
